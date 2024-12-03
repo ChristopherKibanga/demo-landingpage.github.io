@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="header">
+      <nav id="nav-bar">
+        <div class="img-container">
+          <img
+            id="header-img"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAHXPluq6GtTRPDIHRv5kJPy86uFjp5sO7hg&s"
+            alt="logo-img"
+          />
+        </div>
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#cta">Sign up</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="hero" class="hero-section">
+      <div class="content-container">
+        <div class="left-content">
+          <p class="main-txt">This website is awesome</p>
+          <p class="secondary-txt">
+            This website has some subtext that goes under the main title. It's a
+            smaller font amd the color is lower contrast
+          </p>
+          <button type="submit" value="Sign up">Sign up</button>
+        </div>
+        <div class="right-content">
+          <iframe
+            width="300"
+            height="300"
+            id="video"
+            src="https://www.youtube.com/embed/cpP-fCo8Dn4"
+            title="Welcome Video - Bokeh"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+    <div id="products" class="product-section">
+      <header class="products-title">Some random information</header>
+      <div class="flex grid">
+        <div class="product-container">
+          <div class="product-image"></div>
+          <p class="p-description">
+            This is some subtext under an illustration image
+          </p>
+        </div>
+        <div class="product-container">
+          <div class="product-image"></div>
+          <p class="p-description">
+            This is some subtext under an illustration image
+          </p>
+        </div>
+        <div class="product-container">
+          <div class="product-image"></div>
+          <p class="p-description">
+            This is some subtext under an illustration image
+          </p>
+        </div>
+        <div class="product-container">
+          <div class="product-image"></div>
+          <p class="p-description">
+            This is some subtext under an illustration image
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="quote-section">
+      <blockquote>
+        This is an inspiring quote, or a testimonial from a customer. Maybe it's
+        just filling up or maybe people will actually read it.
+      </blockquote>
+      <p class="author">&#x2010;Thor&#44; God of Thunder</p>
+    </div>
+    <div id="cta" class="cta">
+      <div class="text">
+        <p class="ctamaintxt">Call to action! It's time!</p>
+        <p class="ctasecondarytxt">
+          Sign up for our product by clicking that button right over there!
+        </p>
+      </div>
+      <div class="form">
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <label for="email">Email</label>
+          <input
+            id="email"
+            placeholder="someone@example.com"
+            type="email"
+            name="email"
+          />
+          <input type="button" name="sign-up" id="sign-up" value="Sign up" />
+        </form>
+      </div>
+    </div>
+    <footer>
+        <p>Copyright &copy; Christopher Kibanga 2024</p>
+    </footer>
+  </body>
+</html>
